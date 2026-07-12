@@ -38,4 +38,11 @@ Comparison of the predicted internal energy ($U_0$) against the true quantum mec
 
 ### 2. Training Dynamics
 The model achieves stable convergence, avoiding severe overfitting across the epochs.
-![Loss Curve
+![Loss Curve](https://raw.githubusercontent.com/alasaar/QChem-GNN/main/plots/loss_curve.png)
+
+### 3. Error Analysis
+Error distributions across the test set and segmented by the number of atoms in the molecule.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alasaar/QChem-GNN/main/plots/residual_histogram.png" width="48%" />
+  <img src="https://raw.githubusercontent.com/alasaar/QChem-GNN/main/plots/mae_by_molecule_size.png" width="48%" />
+</p>
